@@ -1,0 +1,8 @@
+package com.board;
+
+public class BoardDAO {
+	private static BoardDAO instance = null;
+	private BoardDAO() {
+		
+	}
+}

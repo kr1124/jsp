@@ -1,0 +1,27 @@
+package com.board;
+
+import java.sql.*;
+import javax.sql.*;
+import javax.naming.*;
+
+public class BoardDAO {
+	private static BoardDAO instance = null;
+	private BoardDAO() {}
+	
+	public static BoardDAO getInstance() {
+		if(instance == null) {
+			synchronized(BoardDAO.class) {
+				instance = new BoardDAO();
+			}
+		}
+		
+		return instance;
+	}
+	
+	//데이터베이스에 데이터 추가
+	public void insertArticle(BoardVO article) {
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = 
+	}
+}

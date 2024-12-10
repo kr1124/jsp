@@ -1,0 +1,64 @@
+1733191299985	Rename resource 'pbs'
+1733208295941	Move 'testFile.txt' to 'WEB-INF'
+1733208930652	Copy compilation unit
+1733211642736	Copy compilation unit
+1733211731990	Copy compilation unit
+1733211918152	Copy compilation unit
+1733212134122	Copy compilation unit
+1733212224517	Copy compilation unit
+1733212796239	Rename type 'LoginServlet'
+1733215090982	Copy compilation unit
+1733215098377	Rename type 'LoginServlet2'
+1733215643908	Copy compilation unit
+1733215650110	Rename type 'Logout'
+1733215680153	Rename type 'LogoutServlet'
+1733272717602	Copy compilation unit
+1733273031707	Copy compilation unit
+1733278363525	Rename resource 'direct'
+1733278753298	Copy file
+1733278757092	Rename resource 'bufferEX2.jsp'
+1733280293861	Copy file
+1733283217323	Copy file
+1733283315763	Copy file
+1733283471419	Copy file
+1733283864209	Copy file
+1733283998769	Copy file
+1733284537792	Delete elements
+1733290919075	Copy file
+1733291304226	Copy file
+1733294457024	Copy file
+1733294855204	Copy file
+1733295380124	Copy file
+1733295383894	Copy file
+1733295402608	Copy file
+1733295405531	Move 3 resources to 'viewModule'
+1733295468095	Delete elements
+1733295470673	Copy file
+1733295473680	Copy file
+1733295583110	Copy file
+1733362458408	Rename resource 'templae'
+1733362489699	Delete element
+1733363024995	Move 'top.jsp' to 'module'
+1733363066237	Copy file
+1733363068619	Copy file
+1733363368613	Copy file
+1733363384731	Rename resource 'info_sub.jsp'
+1733366732876	Copy file
+1733386108005	Copy file
+1733386114360	Rename resource 'usingJDBC2.jsp'
+1733386240266	Copy file
+1733448956121	Rename type 'ConUtil'
+1733456025653	Copy file
+1733463935077	Delete element
+1733463975395	Delete element
+1733464659425	Copy compilation unit
+1733464668831	Rename type 'TempMemberDAO'
+1733464762603	Delete element
+1733467978465	Copy folder
+1733468380840	Move 'css' to 'webapp'
+1733469064249	Rename type 'ZipVO'
+1733469132946	Copy compilation unit
+1733469250010	Delete element
+1733469333081	Rename type 'ZipcodeVO'
+1733475928781	Delete element
+1733475941569	Rename type 'ZipCodeV'

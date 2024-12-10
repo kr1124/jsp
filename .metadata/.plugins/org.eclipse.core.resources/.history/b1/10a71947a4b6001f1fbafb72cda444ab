@@ -1,0 +1,64 @@
+package com.board;
+
+import java.sql.*;
+import javax.sql.*;
+import javax.naming.*;
+
+public class BoardDAO {
+	private static BoardDAO instance = null;
+	private BoardDAO() {}
+	
+	public static BoardDAO getInstance() {
+		if(instance == null) {
+			synchronized(BoardDAO.class) {
+				instance = new BoardDAO();
+			}
+		}
+		
+		return instance;
+	}
+	
+	//데이터베이스에 데이터 추가
+	public void insertArticle(BoardVO article) {
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
+		int num = article.getNum();
+		int ref = article.getRef();
+		int step = article.getStep();
+		int depth = article.getDepth();
+		
+		int number = 0;
+		String sql = "";
+		
+		try {
+			con = ConnUtil.getConnection();
+			pstmt =  con.prepareStatement("select max(num) from board");
+			rs = pstmt.executeQuery();
+			
+			if() {
+				
+			} else {
+				number = 1;
+			}
+			
+			if(num != 0) {//답글일 경우
+				sql = "";
+				
+			} else {//새글일 경우
+				ref = number;
+				step = 0;
+				depth = 0;
+			}
+			//데이터 추가하는 쿼리문
+			
+		} catch (Exception se) {
+			e.printStackTrace();
+		} finally {
+			if(rs != null) {try {rs.close();} catch(SQLException e) {}}
+			if(pstmt != null) {try {pstmt.close();} catch(SQLException e) {}}
+			if(con != null) {try {con.close();} catch(SQLException e) {}}
+		}
+	}
+}

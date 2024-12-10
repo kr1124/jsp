@@ -1,0 +1,216 @@
+
+12월 02, 2024 15:22:15.872 NEW SESSION
+12월 02, 2024 15:22:15.872 *** You are running in background task mode. ***
+12월 02, 2024 15:22:15.872 *** You are running in headless mode.
+12월 02, 2024 15:22:16.53 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 15:22:16.55 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 15:23:47.423 *** You are running in background task mode. ***
+12월 02, 2024 15:23:47.423 *** You are running in headless mode.
+12월 02, 2024 15:23:47.513 *** You are running in background task mode. ***
+12월 02, 2024 15:23:47.513 *** You are running in headless mode.
+12월 02, 2024 15:23:47.616 console.error: "C:\\Users\\USER\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\storage\\to-be-removed" "" 0 "*" ""
+12월 02, 2024 15:23:47.617 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 15:23:47.681 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-06-23-47.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 15:23:47.685 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-06-23-47.purge.bg_rm"
+12월 02, 2024 15:23:47.687 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-06-23-47.purge.bg_rm. removed 3 entries."
+12월 02, 2024 15:23:47.689 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 15:29:28.661 *** You are running in background task mode. ***
+12월 02, 2024 15:29:28.662 *** You are running in headless mode.
+12월 02, 2024 15:29:28.857 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 15:29:28.858 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 15:29:33.789 *** You are running in background task mode. ***
+12월 02, 2024 15:29:33.790 *** You are running in headless mode.
+12월 02, 2024 15:29:33.866 *** You are running in background task mode. ***
+12월 02, 2024 15:29:33.866 *** You are running in headless mode.
+12월 02, 2024 15:29:34.02 console.error: "C:\\Users\\USER\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\storage\\to-be-removed" "" 0 "*" ""
+12월 02, 2024 15:29:34.04 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 15:29:34.191 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-06-29-33.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 15:29:34.196 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-06-29-33.purge.bg_rm"
+12월 02, 2024 15:29:34.199 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-06-29-33.purge.bg_rm. removed 4 entries."
+12월 02, 2024 15:29:34.203 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 15:30:15.393 *** You are running in background task mode. ***
+12월 02, 2024 15:30:15.393 *** You are running in headless mode.
+12월 02, 2024 15:30:15.581 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 15:30:15.585 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 15:30:22.587 *** You are running in background task mode. ***
+12월 02, 2024 15:30:22.587 *** You are running in headless mode.
+12월 02, 2024 15:30:22.769 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-06-30-22.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 15:30:22.774 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-06-30-22.purge.bg_rm"
+12월 02, 2024 15:30:22.777 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-06-30-22.purge.bg_rm. removed 4 entries."
+12월 02, 2024 15:30:22.781 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 15:33:36.257 *** You are running in background task mode. ***
+12월 02, 2024 15:33:36.257 *** You are running in headless mode.
+12월 02, 2024 15:33:36.456 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 15:33:36.457 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 15:39:11.244 *** You are running in background task mode. ***
+12월 02, 2024 15:39:11.244 *** You are running in headless mode.
+12월 02, 2024 15:39:11.420 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-06-39-11.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 15:39:11.421 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-06-39-11.purge.bg_rm"
+12월 02, 2024 15:39:11.422 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-06-39-11.purge.bg_rm. removed 3 entries."
+12월 02, 2024 15:39:11.423 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 15:51:05.630 *** You are running in background task mode. ***
+12월 02, 2024 15:51:05.630 *** You are running in headless mode.
+12월 02, 2024 15:51:05.821 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 15:51:05.823 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:01:45.975 *** You are running in background task mode. ***
+12월 02, 2024 16:01:45.976 *** You are running in headless mode.
+12월 02, 2024 16:01:46.151 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-07-01-45.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 16:01:46.155 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-07-01-45.purge.bg_rm"
+12월 02, 2024 16:01:46.158 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-07-01-45.purge.bg_rm. removed 3 entries."
+12월 02, 2024 16:01:46.161 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:01:56.409 *** You are running in background task mode. ***
+12월 02, 2024 16:01:56.409 *** You are running in headless mode.
+12월 02, 2024 16:01:56.598 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 16:01:56.599 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:01:57.148 *** You are running in background task mode. ***
+12월 02, 2024 16:01:57.148 *** You are running in headless mode.
+12월 02, 2024 16:01:57.332 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-07-01-57.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 16:01:57.336 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-07-01-57.purge.bg_rm"
+12월 02, 2024 16:01:57.339 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-07-01-57.purge.bg_rm. removed 4 entries."
+12월 02, 2024 16:01:57.343 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:07:29.58 *** You are running in background task mode. ***
+12월 02, 2024 16:07:29.58 *** You are running in headless mode.
+12월 02, 2024 16:07:29.280 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 16:07:29.281 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:12:42.433 *** You are running in background task mode. ***
+12월 02, 2024 16:12:42.433 *** You are running in headless mode.
+12월 02, 2024 16:12:42.621 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-07-12-42.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 16:12:42.625 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-07-12-42.purge.bg_rm"
+12월 02, 2024 16:12:42.628 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-07-12-42.purge.bg_rm. removed 3 entries."
+12월 02, 2024 16:12:42.631 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:52:12.912 *** You are running in background task mode. ***
+12월 02, 2024 16:52:12.913 *** You are running in headless mode.
+12월 02, 2024 16:52:13.103 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 16:52:13.104 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:52:20.762 *** You are running in background task mode. ***
+12월 02, 2024 16:52:20.763 *** You are running in headless mode.
+12월 02, 2024 16:52:20.944 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-07-52-20.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 16:52:20.949 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-07-52-20.purge.bg_rm"
+12월 02, 2024 16:52:20.953 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-07-52-20.purge.bg_rm. removed 4 entries."
+12월 02, 2024 16:52:20.956 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:52:41.758 *** You are running in background task mode. ***
+12월 02, 2024 16:52:41.758 *** You are running in headless mode.
+12월 02, 2024 16:52:41.973 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 16:52:41.974 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:53:23.955 *** You are running in background task mode. ***
+12월 02, 2024 16:53:23.956 *** You are running in headless mode.
+12월 02, 2024 16:53:24.130 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-07-53-23.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 16:53:24.135 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-07-53-23.purge.bg_rm"
+12월 02, 2024 16:53:24.138 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-07-53-23.purge.bg_rm. removed 4 entries."
+12월 02, 2024 16:53:24.142 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:53:38.26 *** You are running in background task mode. ***
+12월 02, 2024 16:53:38.26 *** You are running in headless mode.
+12월 02, 2024 16:53:38.213 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 16:53:38.214 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 16:57:30.230 *** You are running in background task mode. ***
+12월 02, 2024 16:57:30.230 *** You are running in headless mode.
+12월 02, 2024 16:57:30.467 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 16:57:30.470 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:05:38.449 *** You are running in background task mode. ***
+12월 02, 2024 17:05:38.449 *** You are running in headless mode.
+12월 02, 2024 17:05:38.534 *** You are running in background task mode. ***
+12월 02, 2024 17:05:38.534 *** You are running in headless mode.
+12월 02, 2024 17:05:38.645 console.error: "C:\\Users\\USER\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\storage\\to-be-removed" "" 0 "*" ""
+12월 02, 2024 17:05:38.647 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:05:38.708 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-08-05-38.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 17:05:38.713 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-08-05-38.purge.bg_rm"
+12월 02, 2024 17:05:38.715 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-08-05-38.purge.bg_rm. removed 3 entries."
+12월 02, 2024 17:05:38.719 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:09:36.687 *** You are running in background task mode. ***
+12월 02, 2024 17:09:36.688 *** You are running in headless mode.
+12월 02, 2024 17:09:36.890 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 17:09:36.891 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:35:56.901 *** You are running in background task mode. ***
+12월 02, 2024 17:35:56.901 *** You are running in headless mode.
+12월 02, 2024 17:35:56.969 *** You are running in background task mode. ***
+12월 02, 2024 17:35:56.970 *** You are running in headless mode.
+12월 02, 2024 17:35:57.85 console.error: "C:\\Users\\USER\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\storage\\to-be-removed" "" 0 "*" ""
+12월 02, 2024 17:35:57.88 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:35:57.143 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-08-35-56.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 17:35:57.145 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-08-35-56.purge.bg_rm"
+12월 02, 2024 17:35:57.146 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-08-35-56.purge.bg_rm. removed 3 entries."
+12월 02, 2024 17:35:57.147 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:36:10.573 *** You are running in background task mode. ***
+12월 02, 2024 17:36:10.573 *** You are running in headless mode.
+12월 02, 2024 17:36:10.764 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 17:36:10.765 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:36:31.787 *** You are running in background task mode. ***
+12월 02, 2024 17:36:31.787 *** You are running in headless mode.
+12월 02, 2024 17:36:31.871 *** You are running in background task mode. ***
+12월 02, 2024 17:36:31.871 *** You are running in headless mode.
+12월 02, 2024 17:36:31.968 console.error: "C:\\Users\\USER\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\storage\\to-be-removed" "" 0 "*" ""
+12월 02, 2024 17:36:31.969 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:36:32.51 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-08-36-31.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 17:36:32.56 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-08-36-31.purge.bg_rm"
+12월 02, 2024 17:36:32.59 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-08-36-31.purge.bg_rm. removed 4 entries."
+12월 02, 2024 17:36:32.63 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:36:41.796 *** You are running in background task mode. ***
+12월 02, 2024 17:36:41.796 *** You are running in headless mode.
+12월 02, 2024 17:36:41.993 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "" 0 ".purge.bg_rm" ""
+12월 02, 2024 17:36:41.994 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:36:55.262 *** You are running in background task mode. ***
+12월 02, 2024 17:36:55.262 *** You are running in headless mode.
+12월 02, 2024 17:36:55.346 *** You are running in background task mode. ***
+12월 02, 2024 17:36:55.346 *** You are running in headless mode.
+12월 02, 2024 17:36:55.453 console.error: "C:\\Users\\USER\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\storage\\to-be-removed" "" 0 "*" ""
+12월 02, 2024 17:36:55.455 console.warn: "Skipping Glean as no metrics id is passed"
+12월 02, 2024 17:36:55.516 console.error: "C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release" "cache2.2024-12-02-08-36-55.purge.bg_rm" 10 ".purge.bg_rm" ""
+12월 02, 2024 17:36:55.521 console.error: "started removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-08-36-55.purge.bg_rm"
+12월 02, 2024 17:36:55.524 console.error: "done removing C:\\Users\\USER\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\yyiky22d.default-release\\cache2.2024-12-02-08-36-55.purge.bg_rm. removed 4 entries."
+12월 02, 2024 17:36:55.527 console.warn: "Skipping Glean as no metrics id is passed"
+
+12월 04, 2024 16:03:00.449 NEW SESSION
+12월 04, 2024 16:03:00.449 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 04, 2024 16:09:51.441 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 04, 2024 16:11:26.696 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+12월 05, 2024 11:09:29.902 NEW SESSION
+12월 05, 2024 11:09:29.902 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 05, 2024 11:56:05.880 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 05, 2024 11:56:26.889 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 05, 2024 11:56:56.663 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 05, 2024 16:11:08.910 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 05, 2024 17:00:27.312 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 05, 2024 17:04:52.501 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 05, 2024 17:06:37.128 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 05, 2024 17:06:47.440 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 05, 2024 17:07:49.212 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 05, 2024 18:06:34.598 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+12월 06, 2024 10:42:42.432 NEW SESSION
+12월 06, 2024 10:42:42.432 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 10:57:28.123 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 10:58:57.510 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 11:01:51.72 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 12:45:17.571 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 14:44:26.351 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 14:44:51.194 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 14:45:08.133 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 15:50:12.755 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 15:50:27.57 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 15:52:47.44 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 15:53:48.853 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 15:55:15.769 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 15:59:12.54 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 16:02:42.51 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 16:38:18.274 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 16:39:01.883 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 17:25:50.58 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 06, 2024 17:50:01.21 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+12월 09, 2024 10:06:48.917 NEW SESSION
+12월 09, 2024 10:06:48.917 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 09, 2024 10:47:07.625 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 09, 2024 10:52:55.931 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 09, 2024 11:53:23.814 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 09, 2024 15:18:35.760 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 09, 2024 17:18:05.152 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+12월 10, 2024 11:09:16.283 NEW SESSION
+12월 10, 2024 11:09:16.283 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 10, 2024 11:09:56.990 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 10, 2024 11:18:59.530 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 10, 2024 14:38:33.194 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 10, 2024 15:02:52.135 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 10, 2024 15:06:37.834 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 10, 2024 16:32:45.383 Created TensorFlow Lite XNNPACK delegate for CPU.

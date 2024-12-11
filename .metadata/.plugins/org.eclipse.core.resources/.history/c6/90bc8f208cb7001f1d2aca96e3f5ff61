@@ -254,11 +254,10 @@ public class BoardDAO {
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
-		int result = -1;
 		
 		try {
 			con = ConnUtil.getConnection();
-			String sql = "select pass from board where num=?";
+			String sql = "select * from board where num=?";
 			pstmt = con.prepareStatement(sql);
 			pstmt.setInt(1, article.getNum());
 			
@@ -270,16 +269,7 @@ public class BoardDAO {
 					String sql2 = "update board set writer=?, email=?, subject=?, content=? where num=?";
 					pstmt = con.prepareStatement(sql2);
 					pstmt.setString(1, article.getWriter());
-					pstmt.setString(2, article.getEmail());
-					pstmt.setString(3, article.getSubject());
-					pstmt.setString(4, article.getContent());
-					pstmt.setInt(5, article.getNum());
 					
-					pstmt.executeUpdate();
-					
-					result = 1;
-				} else {
-					result = 0; //비밀번호 오류, 수정 실패
 				}
 			}
 
@@ -291,7 +281,6 @@ public class BoardDAO {
 			if(con != null) {try {con.close();} catch(SQLException e) {}}
 		}
 		
-		return result;
 	}
 	
 	

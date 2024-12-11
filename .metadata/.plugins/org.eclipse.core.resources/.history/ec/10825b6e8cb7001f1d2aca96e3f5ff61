@@ -258,7 +258,7 @@ public class BoardDAO {
 		
 		try {
 			con = ConnUtil.getConnection();
-			String sql = "select pass from board where num=?";
+			String sql = "select * from board where num=?";
 			pstmt = con.prepareStatement(sql);
 			pstmt.setInt(1, article.getNum());
 			

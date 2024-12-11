@@ -9,17 +9,11 @@
 
 <%
 String pageNum = request.getParameter("pageNum");
-BoardDAO dbPro = BoardDAO.getInstance();
 
-int check = dbPro.updateArticle(article);
 
-if(check == 1) {//수정 성공
+article.setRegdate(new Timestamp(System.currentTimeMillis()));
+article.setIp(request.getRemoteAddr());
+BoardDAO dbPro = BoardDAO.getInstance(); //db 연결
+dbPro.insertArticle(article);
+response.sendRedirect("list.jsp");
 %>
-	<meta http-equiv="refresh" content="0;url=list.jsp?pageNum=<%=pageNum%>">
-<%} else if(check == 0) {%>
-	<script type="text/javascript">
-		alert("비밀번호가 맞지 않습니다.");
-		history.go(-1);
-	</script>
-<%}%>
-	

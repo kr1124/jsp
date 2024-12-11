@@ -294,6 +294,46 @@ public class BoardDAO {
 		return result;
 	}
 	
-	
+	//글 삭제 버튼을 클릭하면 삭제처리가 되어야한다.
+	//비밀번호를 입력 받아 기존 비밀번호와 동일하면 삭제
+	public int deleteArticle(int num, String pass) {
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		int result = -1; //번호에 해당하는 글이 존재하지 않는 경우, -1을 반환
+		
+		try {
+			con = ConnUtil.getConnection();
+			String sql1 = "select pass from board where num=?";
+			
+			pstmt = con.prepareStatement(sql1);
+			pstmt.setInt(1, num);			
+			rs = pstmt.executeQuery();
+
+			if(rs.next()) {
+				String dbpasswd = rs.getString("pass");
+				if(dbpasswd.equals(pass)) {
+					String sql2 = "delete from board where num=?";
+					
+					pstmt = con.prepareStatement(sql2);
+					pstmt.setInt(1, num);					
+					pstmt.executeUpdate();
+					
+					result = 1;
+				} else {
+					result = 0; //비밀번호 오류, 삭제 실패
+				}
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			if(rs != null) {try {rs.close();} catch(SQLException e) {}}
+			if(pstmt != null) {try {pstmt.close();} catch(SQLException e) {}}
+			if(con != null) {try {con.close();} catch(SQLException e) {}}
+		}
+		
+		return result;
+	}
 	
 }

@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
     <fullyQualifiedTypeName name="java.util.Enumeration"/>
     <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
@@ -27,4 +26,13 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="com.member.StudentVO"/>
+    <fullyQualifiedTypeName name="java.security.Timestamp"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="javax.naming.Context"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.board.BoardDAO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="com.board.BoardVO"/>
 </qualifiedTypeNameHistroy>

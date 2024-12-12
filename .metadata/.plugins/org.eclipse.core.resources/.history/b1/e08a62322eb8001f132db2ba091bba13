@@ -121,11 +121,11 @@
 		int pageCount = count / pageSize + imsi;
 		
 		//시작 페이지
-		int startPage = (int)((currentPage - 1) / pageBlock) * pageBlock + 1;
+		int startPage = (int)((currentPage - 1 / pageBlock) * pageBlock + 1);
 		//마지막 페이지
 		int endPage = startPage + pageBlock - 1;
 		//마지막으로 보여줄 페이지
-		if(endPage > pageCount) endPage = pageCount;
+		if(endPage > startPage) endPage = pageCount;
 		//페이지 블럭을 이전과 다음으로 처리함
 		if(startPage > pageBlock) {
 		%>

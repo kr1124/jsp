@@ -7,7 +7,7 @@
 <% request.setCharacterEncoding("utf-8"); %>
 
 <%!
-	int pageSize = 5; //한 페이지 내에서 보여줄 레코드(게시글) 개수
+	int pageSize = 10; //한 페이지 내에서 보여줄 레코드(게시글) 개수
 	
 	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 %>
@@ -88,7 +88,7 @@
 				<%} else { %>
 					<img src="img/level.gif" width="<%=wid%>" height="16">
 				<%} %>
-					<a href="content.jsp?num=<%=article.getNum()%>&pageNum=<%=currentPage%>">
+					<a href="content.jsp?num=<%=article.getNum()%>&pageNum=<%=currentPage%>"><!-- TODO -->
 						<%=article.getSubject() %>
 					</a>
 					<% if(article.getReadcount() >= 20) { %>
@@ -115,23 +115,23 @@
 		</table>
 	<%} %>
 	<%//페이지 블럭
-	if(count > 0) {
+	if(count> 0) {
 		int pageBlock = 5;
 		int imsi = count % pageSize == 0 ? 0 : 1;
 		int pageCount = count / pageSize + imsi;
 		
 		//시작 페이지
-		int startPage = (int)((currentPage - 1) / pageBlock) * pageBlock + 1;
+		int startPage = (int)((currentPage - 1 / pageBlock) * pageBlock + 1);
 		//마지막 페이지
 		int endPage = startPage + pageBlock - 1;
 		//마지막으로 보여줄 페이지
-		if(endPage > pageCount) endPage = pageCount;
+		if(endPage > startPage) endPage = pageCount;
 		//페이지 블럭을 이전과 다음으로 처리함
 		if(startPage > pageBlock) {
 		%>
 			<a href="list.jsp?pageNum=<%=startPage - pageBlock%>">[이전]</a>
 		<%} 
-		for(int i = startPage; i <= endPage; i++) {
+		for(int i = startPage; i < endPage; i++) {
 		%>
 			<a href="list.jsp?pageNum=<%=i%>">[<%=i%>]</a>
 		<%

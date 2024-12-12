@@ -117,7 +117,7 @@ public class BoardDAO {
 		return x;
 	}
 	
-	public List<BoardVO> getArticles() {
+	public List<BoardVO> getArticles(int start, int end) {
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
@@ -126,12 +126,20 @@ public class BoardDAO {
 		
 		try {
 			con = ConnUtil.getConnection();
-			String sql = "select * from board order by num desc";
+			
+			//String sql = "select * from board order by num desc"; //기존 쿼리문
+			String sql = "select * from ("
+					+ "select rownum rnum, num, writer, email, subject, "
+					+ "pass, readcount, ref, step, depth, regdate, content, ip from ("
+					+ "select * from board order by ref desc, step asc)) "
+					+ "where rnum >= ? and rnum <= ?";
 			pstmt = con.prepareStatement(sql);
+			pstmt.setInt(1, start);
+			pstmt.setInt(2, end);
 			rs = pstmt.executeQuery();
 			
 			if(rs.next()) {
-				articleList = new ArrayList<BoardVO>();
+				articleList = new ArrayList<BoardVO>(end - start + 1);
 				do {
 					BoardVO article = new BoardVO();
 					article.setNum(rs.getInt("num"));

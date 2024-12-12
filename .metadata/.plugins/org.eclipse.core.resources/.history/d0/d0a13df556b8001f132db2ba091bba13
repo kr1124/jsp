@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="com.oreilly.servlet.MultipartRequest" %>
+<%@ page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy" %>
+<%@ page import="java.util.*" %>
+
+<%
+	String uploadPath = request.getRealPath("upload");//폴더명 지정
+	int size = 10 * 1024 * 1024;
+	
+	String name = "";
+	String subject = "";
+	String filename1 = "";
+	String filename2 = "";
+	String origfilename1 = "";
+	String origfilename2 = "";
+	
+	try {
+		
+	} catch(Exception e) {
+		e.printStackTrace()	
+	}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	
+</body>
+</html>

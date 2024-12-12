@@ -437,3 +437,13 @@
 127.0.0.1 - - [12/Dec/2024:13:10:00 +0900] "GET /board/img/hot.gif HTTP/1.1" 404 8237
 127.0.0.1 - - [12/Dec/2024:13:10:00 +0900] "GET /css/wait_style.css HTTP/1.1" 200 1578
 127.0.0.1 - - [12/Dec/2024:13:10:00 +0900] "GET /img/wait01.webp HTTP/1.1" 200 11884
+127.0.0.1 - - [12/Dec/2024:13:11:48 +0900] "GET / HTTP/1.1" 404 8237
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:13:11:53 +0900] "GET /board/list.jsp?pageNum=1 HTTP/1.1" 200 4660
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:13:11:53 +0900] "GET /board/img/hot.gif HTTP/1.1" 200 1076
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:14:36:00 +0900] "GET /board/list.jsp?pageNum=2 HTTP/1.1" 200 4637
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:14:36:01 +0900] "GET /board/list.jsp?pageNum=1 HTTP/1.1" 200 4660
+127.0.0.1 - - [12/Dec/2024:15:51:59 +0900] "GET / HTTP/1.1" 404 8237
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:15:52:01 +0900] "GET /fileupload/fileUploadForm.jsp HTTP/1.1" 200 939
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:16:21:44 +0900] "GET /fileupload/fileUploadForm.jsp HTTP/1.1" 200 939
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:16:22:03 +0900] "POST /fileupload/fileUpload.jsp HTTP/1.1" 200 659
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:16:22:04 +0900] "POST /fileupload/fileCheck.jsp HTTP/1.1" 200 333

@@ -116,7 +116,7 @@
 	<%} %>
 	<%//페이지 블럭
 	if(count > 0) {
-		int pageBlock = 5;
+		int pageBlock = 5; //밑에 나열할 페이지 숫자들의 개수 (6, 7, 8, 9, 10같은거)
 		int imsi = count % pageSize == 0 ? 0 : 1;
 		int pageCount = count / pageSize + imsi;
 		

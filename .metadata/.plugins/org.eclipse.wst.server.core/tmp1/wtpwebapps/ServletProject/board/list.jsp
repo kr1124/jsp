@@ -13,6 +13,14 @@
 %>
 <%
 	String pageNum = request.getParameter("pageNum");
+	String searchWhat = request.getParameter("searchWhat"); //writer, subject, content
+	String searchText = request.getParameter("searchText"); //검색할 내용
+
+	//파라미터 인코딩
+	if(searchText != null) {
+		searchText = new String(searchText.getBytes("utf-8"), "utf-8");
+	}
+	
 	if(pageNum == null) {
 		pageNum = "1";
 	}
@@ -26,13 +34,22 @@
 	List<BoardVO> articleList = null;
 	BoardDAO dbPro = BoardDAO.getInstance();
 	
-	count = dbPro.getArticleCount();
-	
-	if(count > 0) {
-		articleList = dbPro.getArticles(startRow, endRow);
+	// 검색이 아니면 전체 리스트를 보여주고, 검색이면 검색한 내용을 보여준다.
+	if(searchText == null) {
+		count = dbPro.getArticleCount();
+		
+		if(count > 0) {
+			articleList = dbPro.getArticles(startRow, endRow);
+		}
+	} else {
+		count = dbPro.getArticleCount(searchWhat, searchText);
+		
+		if(count > 0) {
+			articleList = dbPro.getArticles(searchWhat, searchText, startRow, endRow);
+		}
 	}
-	number = count - (currentPage - 1) * pageSize;
 	
+	number = count - (currentPage - 1) * pageSize;
 %>
 
 <!DOCTYPE html>
@@ -83,10 +100,10 @@
 				if(article.getDepth() > 0) {
 					wid = 5 * (article.getDepth());					
 				%>
-					<img src="img/level.gif" width="<%=wid%>" height="16">
-					<img src="img/re.gif" >
+					<img src="/img/level.gif" width="<%=wid%>" height="16">
+					<img src="/img/re.gif" >
 				<%} else { %>
-					<img src="img/level.gif" width="<%=wid%>" height="16">
+					<img src="/img/level.gif" width="<%=wid%>" height="16">
 				<%} %>
 					<a href="content.jsp?num=<%=article.getNum()%>&pageNum=<%=currentPage%>">
 						<%=article.getSubject() %>
@@ -114,6 +131,7 @@
 			<%}%>
 		</table>
 	<%} %>
+	
 	<%//페이지 블럭
 	if(count > 0) {
 		int pageBlock = 5; //밑에 나열할 페이지 숫자들의 개수 (6, 7, 8, 9, 10같은거)
@@ -128,21 +146,41 @@
 		if(endPage > pageCount) endPage = pageCount;
 		//페이지 블럭을 이전과 다음으로 처리함
 		if(startPage > pageBlock) {
-		%>
-			<a href="list.jsp?pageNum=<%=startPage - pageBlock%>">[이전]</a>
-		<%} 
+			// 검색일 경우와 검색이 아닐 경우를 따로 페이징 처리함
+			if(searchText == null) {%>
+				<a href="list.jsp?pageNum=<%=startPage - pageBlock%>">[이전]</a>
+			<%} else {%>
+				<a href="list.jsp?pageNum=<%=startPage - pageBlock%>&searchWhat=<%=searchWhat%>&searchText=<%=searchText%>">[이전]</a>
+			<%}
+		}
+		
 		for(int i = startPage; i <= endPage; i++) {
-		%>
-			<a href="list.jsp?pageNum=<%=i%>">[<%=i%>]</a>
-		<%
+			if(searchText == null) {%>
+				<a href="list.jsp?pageNum=<%=i%>">[<%=i%>]</a>
+			<%} else {%>
+				<a href="list.jsp?pageNum=<%=i%>&searchWhat=<%=searchWhat%>&searchText=<%=searchText%>">[<%=i%>]</a>
+			<%}
 		}
 		
 		if(endPage < pageCount) {
-		%>
-			<a href="list.jsp?pageNum=<%=startPage + pageBlock%>">[다음]</a>
-			
-		<%} %>
-	<%}	%>
+			if(searchText == null) {%>
+				<a href="list.jsp?pageNum=<%=startPage + pageBlock%>">[다음]</a>
+			<%} else {%>
+				<a href="list.jsp?pageNum=<%=startPage + pageBlock%>&searchWhat=<%=searchWhat%>&searchText=<%=searchText%>">[다음]</a>
+			<%}
+		}
+	}%>
+	
+		<!-- 검색창 -->
+		<form action="list.jsp">
+			<select name="searchWhat">
+				<option value="writer">작성자</option>
+				<option value="subject">제목</option>
+				<option value="content">내용</option>
+			</select>
+			<input type="text" name="searchText">
+			<input type="submit" value="검색">
+		</form>
 	</div>
 </body>
 </html>

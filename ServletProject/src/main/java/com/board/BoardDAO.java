@@ -342,6 +342,92 @@ public class BoardDAO {
 		}
 		
 		return result;
+	}//deleteArticle
+	
+	//검색한 내용이 몇개인지를 반환함(what:검색조건, content: 검색내용)
+	public int getArticleCount(String what, String content) {
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		int x = 0;
+		
+		try {
+			con = ConnUtil.getConnection();
+			//String sql = "select count(*) from board";
+			String sql = "select count(*) from board where " + what + " like '%" + content + "%'";
+			pstmt =  con.prepareStatement(sql);
+			
+			rs = pstmt.executeQuery();
+			
+			if(rs.next()) {
+				x = rs.getInt(1);
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			if(rs != null) {try {rs.close();} catch(SQLException e) {}}
+			if(pstmt != null) {try {pstmt.close();} catch(SQLException e) {}}
+			if(con != null) {try {con.close();} catch(SQLException e) {}}
+		}
+		
+		return x;
+	}//getArticleCount(String what, String content)
+	
+	//검색할 내용을 리스트로 받아옴
+	public List<BoardVO> getArticles(String what, String content, int start, int end) {
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
+		List<BoardVO> articleList = null;
+		
+		try {
+			con = ConnUtil.getConnection();
+			
+			//String sql = "select * from board order by num desc"; //기존 쿼리문
+			String sql = "select * from ("
+					+ "select rownum rnum, num, writer, email, subject, "
+					+ "pass, readcount, ref, step, depth, regdate, content, ip from ("
+					+ "select * from board where "
+					+ what + " like '%" + content + "%' order by ref desc, step asc)) "
+					+ "where rnum >= ? and rnum <= ?";
+			
+			
+			pstmt = con.prepareStatement(sql);
+			pstmt.setInt(1, start);
+			pstmt.setInt(2, end);
+			rs = pstmt.executeQuery();
+			
+			if(rs.next()) {
+				articleList = new ArrayList<BoardVO>(end - start + 1);
+				do {
+					BoardVO article = new BoardVO();
+					article.setNum(rs.getInt("num"));
+					article.setWriter(rs.getString("writer"));
+					article.setEmail(rs.getString("email"));
+					article.setSubject(rs.getString("subject"));
+					article.setPass(rs.getString("pass"));
+					article.setRegdate(rs.getTimestamp("regdate"));
+					article.setReadcount(rs.getInt("readcount"));
+					article.setRef(rs.getInt("ref"));
+					article.setStep(rs.getInt("step"));
+					article.setDepth(rs.getInt("depth"));
+					article.setContent(rs.getString("content"));
+					article.setIp(rs.getString("ip"));
+					
+					articleList.add(article);
+				} while(rs.next());
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			if(rs != null) {try {rs.close();} catch(SQLException e) {}}
+			if(pstmt != null) {try {pstmt.close();} catch(SQLException e) {}}
+			if(con != null) {try {con.close();} catch(SQLException e) {}}
+		}
+		
+		return articleList;
 	}
 	
 }

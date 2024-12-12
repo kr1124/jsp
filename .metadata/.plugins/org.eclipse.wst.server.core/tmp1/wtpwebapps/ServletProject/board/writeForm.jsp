@@ -13,7 +13,7 @@
 	이를 통해 새글인지 답글인지 구분 
 -->
 <%
-int num = 0, ref = 1, step = 0, depth = 0;
+int num = 0, ref = 0, step = 0, depth = 0;
 try {
 	if(request.getParameter("num") != null) {
 		num = Integer.parseInt(request.getParameter("num"));

@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.awt.Graphics2D" %>
+<%@ page import="java.awt.image.renderable.ParameterBlock" %>
+<%@ page import="" %>
+<%@ page import="" %>
+<%@ page import="" %>
+<%@ page import="" %>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>썸네일 처리</title>
+</head>
+<body>
+	<div align="center">
+		
+	</div>
+</body>
+</html>

@@ -447,3 +447,9 @@
 0:0:0:0:0:0:0:1 - - [12/Dec/2024:16:21:44 +0900] "GET /fileupload/fileUploadForm.jsp HTTP/1.1" 200 939
 0:0:0:0:0:0:0:1 - - [12/Dec/2024:16:22:03 +0900] "POST /fileupload/fileUpload.jsp HTTP/1.1" 200 659
 0:0:0:0:0:0:0:1 - - [12/Dec/2024:16:22:04 +0900] "POST /fileupload/fileCheck.jsp HTTP/1.1" 200 333
+127.0.0.1 - - [12/Dec/2024:18:02:57 +0900] "GET / HTTP/1.1" 404 8237
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:18:02:59 +0900] "GET /fileupload/fileSelect.jsp HTTP/1.1" 200 3142
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:18:02:59 +0900] "GET /fileupload/style.css HTTP/1.1" 200 559
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:18:03:03 +0900] "POST /fileupload/fileSelect.jsp HTTP/1.1" 200 4498
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:18:03:07 +0900] "POST /fileupload/fileSelect.jsp HTTP/1.1" 200 3988
+0:0:0:0:0:0:0:1 - - [12/Dec/2024:18:05:27 +0900] "POST /fileupload/fileSelect.jsp HTTP/1.1" 200 3990

@@ -42,7 +42,7 @@
 			paramIndex = 1;
 			for(let idx = 0; idx < formName.elements.length; idx++) {
 				if(formName.elements[idx].type == "file") {
-					if(formName.elements[id].value == "") {
+					if(formName.elements[idx].value == "") {
 						let message = paramIndex
 							+ "번째 파일 정보가 누락되었습니다.\n업로드할 파일을 선택해 주세요.";
 						alert(message);

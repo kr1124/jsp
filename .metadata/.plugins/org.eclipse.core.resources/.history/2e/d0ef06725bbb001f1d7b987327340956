@@ -1,0 +1,23 @@
+<%@page import="org.apache.catalina.util.CustomObjectInputStream"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="com.actiontag.Customer" %>
+<%@ page import="java.util.ArrayList" %>
+<%
+	ArrayList<String> singer = new ArrayList<String>();
+	
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>EL(Expression Language)</title>
+</head>
+<body>
+	<ul>
+		<li>이름 : ${customer.name }</li>
+		<li>메일 : ${customer.email}</li>
+		<li>전번 : ${customer.phone}</li>
+	</ul>
+</body>
+</html>

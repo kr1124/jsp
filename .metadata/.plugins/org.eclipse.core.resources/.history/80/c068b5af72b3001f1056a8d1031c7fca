@@ -1,9 +1,0 @@
-package com.jdbc;
-
-import java.sql.*;
-import javax.naming.*;
-import javax.sql.*;
-
-public class ConnUtil {
-	
-}

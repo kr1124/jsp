@@ -100,10 +100,10 @@
 				if(article.getDepth() > 0) {
 					wid = 5 * (article.getDepth());					
 				%>
-					<img src="/img/level.gif" width="<%=wid%>" height="16">
-					<img src="/img/re.gif" >
+					<img src="img/level.gif" width="<%=wid%>" height="16">
+					<img src="img/re.gif" >
 				<%} else { %>
-					<img src="/img/level.gif" width="<%=wid%>" height="16">
+					<img src="img/level.gif" width="<%=wid%>" height="16">
 				<%} %>
 					<a href="content.jsp?num=<%=article.getNum()%>&pageNum=<%=currentPage%>">
 						<%=article.getSubject() %>

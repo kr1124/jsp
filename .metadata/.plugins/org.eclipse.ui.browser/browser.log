@@ -247,3 +247,23 @@
 12월 18, 2024 10:59:13.136 NEW SESSION
 12월 18, 2024 10:59:13.137 Created TensorFlow Lite XNNPACK delegate for CPU.
 12월 18, 2024 10:59:31.255 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+12월 19, 2024 10:17:19.104 NEW SESSION
+12월 19, 2024 10:17:19.104 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 19, 2024 10:41:00.241 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 19, 2024 10:42:04.820 [1180:3992:1219/104204.820:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98934)
+12월 19, 2024 10:42:04.820     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:194918
+12월 19, 2024 10:42:04.821     at new ci (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:195314)
+12월 19, 2024 10:42:04.822     at ci.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:195436)
+12월 19, 2024 10:42:04.822     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+12월 19, 2024 10:42:04.822     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17402)
+12월 19, 2024 10:42:04.823     at #v (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17197)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+12월 19, 2024 10:42:48.582 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 19, 2024 11:48:04.969 Created TensorFlow Lite XNNPACK delegate for CPU.
+12월 19, 2024 12:32:51.994 [13940:1632:1219/123251.994:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98934)
+12월 19, 2024 12:32:51.995     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:194918
+12월 19, 2024 12:32:51.995     at new ci (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:195314)
+12월 19, 2024 12:32:51.995     at ci.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:195436)
+12월 19, 2024 12:32:51.996     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+12월 19, 2024 12:32:51.996     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17402)
+12월 19, 2024 12:32:51.997     at #v (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17197)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)

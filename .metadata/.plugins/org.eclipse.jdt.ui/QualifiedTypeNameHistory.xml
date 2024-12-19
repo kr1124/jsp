@@ -38,7 +38,6 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="com.chart.ConnUtil"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="org.jfree.data.xy.XYSeries"/>
     <fullyQualifiedTypeName name="org.jfree.data.xy.XYSeriesCollection"/>
@@ -47,4 +46,6 @@
     <fullyQualifiedTypeName name="org.jfree.chart.plot.PlotOrientation"/>
     <fullyQualifiedTypeName name="javax.servlet.ServletOutputStream"/>
     <fullyQualifiedTypeName name="org.jfree.chart.ChartUtilities"/>
+    <fullyQualifiedTypeName name="com.jstl.MemberVO"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,6 @@
+package com.mvctwo;
+
+//요청 파라미터로 명령어를 전달하는 방식 인터페이스
+public interface CommandProcess {
+	
+}

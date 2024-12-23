@@ -119,4 +119,17 @@
 	</taglib>
   </jsp-config>
   
+  <!-- mvc 2 패턴 하면서 추가한거 -->
+  <servlet>
+  	<servlet-name>ControllerURI</servlet-name>
+  	<servlet-class>com.mvctwo.Controller</servlet-class>
+  	<init-param>
+  		<param-name>propertyConfig</param-name>
+  		<param-value>Command.properties</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>ControllerURI</servlet-name>
+	<url-pattern>*.do</url-pattern>
+  </servlet-mapping>
 </web-app>

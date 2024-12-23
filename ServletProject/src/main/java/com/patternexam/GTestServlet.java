@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("*.glo")
+//@WebServlet("*.glo")
 public class GTestServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

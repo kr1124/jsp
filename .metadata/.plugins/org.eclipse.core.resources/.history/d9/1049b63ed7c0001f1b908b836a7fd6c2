@@ -1,5 +1,0 @@
-package com.mvctwo;
-
-public interface CommandProcess {
-
-}

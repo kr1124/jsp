@@ -119,19 +119,19 @@
 	</taglib>
   </jsp-config>
   
-  <!-- mvc 2 패턴 하면서 추가한거 -->
-  <servlet>
-  	<servlet-name>ControllerURI</servlet-name>
-  	<servlet-class>com.mvctwo.Controller</servlet-class>
-  	<init-param>
-  		<param-name>propertyConfig</param-name>
-  		<param-value>Command.properties</param-value>
-  	</init-param>
-  </servlet>
-  <servlet-mapping>
-	<servlet-name>ControllerURI</servlet-name>
-	<url-pattern>*.do</url-pattern>
-  </servlet-mapping>
+  <!-- mvc 2 패턴 하면서 추가한거, member용 -->
+<!--   <servlet> -->
+<!--   	<servlet-name>ControllerURI</servlet-name> -->
+<!--   	<servlet-class>com.mvctwo.Controller</servlet-class> -->
+<!--   	<init-param> -->
+<!--   		<param-name>propertyConfig</param-name> -->
+<!--   		<param-value>Command.properties</param-value> -->
+<!--   	</init-param> -->
+<!--   </servlet> -->
+<!--   <servlet-mapping> -->
+<!-- 	<servlet-name>ControllerURI</servlet-name> -->
+<!-- 	<url-pattern>*.do</url-pattern> -->
+<!--   </servlet-mapping> -->
   
   <!-- mvc 2 패턴 하면서 추가한거, mvcmem용  -->
   <servlet>
@@ -141,6 +141,20 @@
   <servlet-mapping>
 	<servlet-name>myControl</servlet-name>
 	<url-pattern>*.mdo</url-pattern>
+  </servlet-mapping>
+  
+<!--   board mvc 2패턴 -->
+  <servlet>
+  	<servlet-name>Controller</servlet-name>
+  	<servlet-class>com.boardmvc.controller.ControllerAction</servlet-class>
+  	<init-param>
+  		<param-name>propertyConfig</param-name>
+  		<param-value>CommandPro.properties</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Controller</servlet-name>
+	<url-pattern>*.bdo</url-pattern>
   </servlet-mapping>
   
 </web-app>

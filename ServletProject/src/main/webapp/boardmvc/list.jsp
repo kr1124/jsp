@@ -9,13 +9,17 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<link href="style.css" type="text/css" rel="stylesheet" >
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body bgcolor="${bodyback_c }">
 	<div align="center">
 		<b>글목록(전체 글 : ${count })</b>
-		<table width="700">
+		<table width="700" border="0" bgcolor="${value_c }">
 			<tr>
-				<td align="right" bgcolor="${value_c }">
+				<td align="left">
+					<a href="/boardmvc/list.bdo">전체목록</a>
+				</td>
+				<td align="right">
 					<a href="/boardmvc/writeForm.bdo">글쓰기</a>
 				</td>
 			</tr>
@@ -95,25 +99,28 @@
 			<c:set var="endPage" value="${pageCount }"/> <!-- 마지막으로 보여줄 페이지 -->
 		</c:if> 
 		<c:if test="${startPage > pageBlock }"> <!--페이지 블럭을 이전과 다음으로 처리함-->
-				<a href="/boardmvc/list.bdo?pageNum=${startPage - pageBlock}">[이전]</a>
+				<a href="#" onclick="frm_sub(${startPage - pageBlock})">[이전]</a>
 <%-- 			<c:if test="${searchText == null }"> --%>
 				
 <%-- 					<a href="/boardmvc/list.bdo?pageNum=<%=startPage - pageBlock%>&searchWhat=<%=searchWhat%>&searchText=<%=searchText%>">[이전]</a> --%>
 
-				<c:forEach var="i" begin="${startPage }" end="${endPage }">
-					<a href="/boardmvc/list.bdo?pageNum=${i }">[${i }]</a>
-<%-- 					<c:if test="${searchText == null }"> --%>
-<%-- 						<a href="/boardmvc/list.bdo?pageNum=${i }">[${i }]</a> --%>
-<%-- 					</c:if> --%>
-<%-- 					<c:if test="${searchText != null }"> --%>
-<%-- 						<a href="/boardmvc/list.bdo?pageNum=${i }&searchWhat=${searchWhat }&searchText=${searchText }">[${i }]</a> --%>
-<%-- 					</c:if> --%>
-				</c:forEach>
+				
 				
 				
 		</c:if> 
+		
+		<c:forEach var="i" begin="${startPage }" end="${endPage }">
+			<a href="#" onclick="frm_sub(${i})">[${i }]</a>
+<%-- 				<c:if test="${searchText == null }"> --%>
+<%-- 					<a href="/boardmvc/list.bdo?pageNum=${i }">[${i }]</a> --%>
+<%-- 				</c:if> --%>
+<%-- 				<c:if test="${searchText != null }"> --%>
+<%-- 					<a href="/boardmvc/list.bdo?pageNum=${i }&searchWhat=${searchWhat }&searchText=${searchText }">[${i }]</a> --%>
+<%-- 				</c:if> --%>
+		</c:forEach>
+		
 		<c:if test="${endPage < pageCount }">
-			<a href="/boardmvc/list.bdo?pageNum=${startPage + pageBlock}">[다음]</a>
+			<a href="#" onclick="frm_sub(${startPage + pageBlock})">[다음]</a>
 <!-- 			if(searchText == null) -->
 <%-- 				<a href="list.jsp?pageNum=<%=startPage + pageBlock%>&searchWhat=<%=searchWhat%>&searchText=<%=searchText%>">[다음]</a> --%>
 
@@ -121,14 +128,21 @@
 		
 	</c:if>
 	
-		<!-- 검색창 -->
-		<form action="list.jsp">
-			<select name="searchWhat">
-				<option value="writer">작성자</option>
+		<!--검색 폼 -->
+		<form action="" name="i_frm" method="post">
+			<input type="hidden" name="find_box" value="${find_box }">
+			<input type="hidden" name="find" value="${find }">
+		</form>
+	
+		<form action="/boardmvc/list.bdo" onsubmit="return check()" method="post">
+			<select name="find" size="1">
+				<option value="writer">이름</option>
 				<option value="subject">제목</option>
 				<option value="content">내용</option>
 			</select>
-			<input type="text" name="searchText">
+			&nbsp;
+			<input type="text" name="find_box">
+			&nbsp;
 			<input type="submit" value="검색">
 		</form>
 	</div>

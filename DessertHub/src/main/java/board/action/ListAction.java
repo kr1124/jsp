@@ -1,4 +1,4 @@
-package com.boardmvc.action;
+package board.action;
 
 import java.util.Collections;
 import java.util.List;
@@ -6,14 +6,13 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.boardmvc.model.BoardDAO;
-import com.boardmvc.model.BoardVO;
+import board.model.BoardDAO;
+import board.model.BoardVO;
 
 public class ListAction implements CommandAction {
 
 	@Override
 	public String requestPro(HttpServletRequest request, HttpServletResponse response) throws Throwable {
-		request.setCharacterEncoding("utf-8");
 		String pageNum = request.getParameter("pageNum"); 
 		
 		if(pageNum == null) {
@@ -31,25 +30,14 @@ public class ListAction implements CommandAction {
 		
 		int count = 0;
 		int number = 0;
-		
-		String find = request.getParameter("find");
-		String find_box = request.getParameter("find_box");
-
-		if(find == null) {
-			find = "no";
-		}
-		if(find_box == null) {
-			find_box = "no";
-		}		
-		
 		List<BoardVO> articleList = null;
 		
 		BoardDAO dbPro = BoardDAO.getInstance();
 		
-		count = dbPro.getArticleCount(find, find_box);
+		count = dbPro.getArticleCount();
 		
 		if(count > 0) {
-			articleList = dbPro.getArticles(find, find_box, startRow, endRow);
+			articleList = dbPro.getArticles(startRow, endRow);
 		} else {
 			articleList = Collections.emptyList();
 		}
@@ -65,8 +53,6 @@ public class ListAction implements CommandAction {
 		request.setAttribute("pageSize", pageSize);
 		request.setAttribute("number", number);
 		request.setAttribute("articleList", articleList);
-		request.setAttribute("find", find);
-		request.setAttribute("find_box", find_box);
 		
 		return "/boardmvc/list.jsp";
 	}
